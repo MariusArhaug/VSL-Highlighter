@@ -29,14 +29,14 @@
         "extensions": [
           ".vsl"
         ],
-        "configuration": "./language-configuration.json"
+        "configuration": "./src/language-configuration.json"
       }
     ],
     "grammars": [
       {
         "language": "vsl",
         "scopeName": "source.vsl",
-        "path": "./syntaxes/vsl.tmLanguage.json"
+        "path": "./src/syntaxes/vsl.tmLanguage.json"
       }
     ]
   }
