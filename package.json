@@ -1,5 +1,10 @@
 {
   "name": "vsl-lang",
+  "author": {
+    "name": "Marius Arhaug",
+    "email": "mariusarhaug@hotmail.com",
+    "url": "https://www.github.com/MariusArhaug"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/MariusArhaug/VSL-Highlighter"
