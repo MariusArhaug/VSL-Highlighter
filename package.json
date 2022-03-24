@@ -1,0 +1,38 @@
+{
+  "name": "vsl-lang",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MariusArhaug/VSL-Highlighter"
+  },
+  "displayName": "vsl",
+  "description": "syntax highlighting for vsl",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.65.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "vsl",
+        "aliases": [
+          "vsl",
+          "vsl"
+        ],
+        "extensions": [
+          ".vsl"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "vsl",
+        "scopeName": "source.vsl",
+        "path": "./syntaxes/vsl.tmLanguage.json"
+      }
+    ]
+  }
+}
