@@ -1,5 +1,6 @@
 {
   "name": "vsl-lang",
+  "publisher": "MariusArhaug",
   "author": {
     "name": "Marius Arhaug",
     "email": "mariusarhaug@hotmail.com",
@@ -9,15 +10,23 @@
     "type": "git",
     "url": "https://github.com/MariusArhaug/VSL-Highlighter"
   },
-  "displayName": "vsl",
-  "description": "syntax highlighting for vsl",
+  "displayName": "VSL Highlighter",
+  "description": "Syntax highlighting for the VSL language (very simple language)",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.65.0"
   },
+  "license": "SEE LICENSE IN LICENSE.md",
   "categories": [
-    "Programming Languages"
+    "Programming Languages",
+    "Themes",
+    "Visualization"
   ],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#C80000",
+    "theme": "dark"
+  },
   "contributes": {
     "languages": [
       {
@@ -39,5 +48,14 @@
         "path": "./src/syntaxes/vsl.tmLanguage.json"
       }
     ]
+  },
+  "activationEvents": [
+    "onLanguage:vsl"
+  ],
+  "__metadata": {
+    "id": "bd913646-6eec-49c7-97af-c81c83ba438d",
+    "publisherDisplayName": "Marius Arhaug",
+    "publisherId": "8373029c-abb6-485e-8eee-35b58a5e9fad",
+    "isPreReleaseVersion": false
   }
 }
