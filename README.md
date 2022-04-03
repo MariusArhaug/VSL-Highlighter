@@ -4,39 +4,24 @@ This is a simple syntax highlighter for the "vsl" (very simple language) languag
 
 ## Features
 
-## Requirements
+It currently only implements simple highlighting tokens for other themes to pick up on.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+These are for operators, assignements and keywords
 
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-- `myExtension.enable`: enable/disable this extension
-- `myExtension.thing`: set to `blah` to do something
+More to be added whenever I have the time :)
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+Calling out known issues can help limit users opening duplicate issues against your extension. Please let me know
 
 ## Release Notes
 
 Users appreciate release notes as you update your extension.
 
-### 1.0.0
+### 0.0.1
 
-Initial release of ...
+Initial release of extension
 
-### 1.0.1
+### 0.0.2 - 0.0.3
 
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
+Update metadata

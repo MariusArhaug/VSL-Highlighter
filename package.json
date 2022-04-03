@@ -12,7 +12,7 @@
   },
   "displayName": "VSL Highlighter",
   "description": "Syntax highlighting for the VSL language (very simple language)",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.65.0"
   },
@@ -50,9 +50,13 @@
     ]
   },
   "__metadata": {
+    "installedTimestamp": 1649020017221,
     "id": "bd913646-6eec-49c7-97af-c81c83ba438d",
-    "publisherDisplayName": "Marius Arhaug",
     "publisherId": "8373029c-abb6-485e-8eee-35b58a5e9fad",
-    "isPreReleaseVersion": false
+    "publisherDisplayName": "Marius Arhaug",
+    "targetPlatform": "undefined",
+    "updated": false,
+    "isPreReleaseVersion": false,
+    "preRelease": false
   }
 }
