@@ -4,11 +4,18 @@
 
 func main()
 begin
-    var a
+    var a, b0, c
+    b0 := 4
     a := 3
     a += 1
     a /= 2
     a *= 32
     a -= 2
     print a
+
+    c := add(a, 1)
+end
+
+func add(a,b) begin
+    return a + b 
 end

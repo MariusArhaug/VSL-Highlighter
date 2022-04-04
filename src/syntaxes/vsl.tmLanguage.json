@@ -1,5 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "fileTypes": ["vsl"],
   "name": "vsl",
   "patterns": [
     {
@@ -19,6 +20,9 @@
     },
     {
       "include": "#numbers"
+    },
+    {
+      "include": "#function_calls"
     },
     {
       "captures": {}
@@ -55,6 +59,38 @@
         }
       ]
     },
+    "function_calls": {
+      "patterns": [
+        {
+          "begin": "((?:[[:alpha:]])(?:[[:word:]_!])*)({(?:[^{}]|{(?:[^{}]|{[^{}]*})*})*})?\\.?(\\()",
+          "beginCaptures": {
+            "1": {
+              "name": "support.function.vsl"
+            }
+          },
+          "end": "\\)(('|(\\.'))*\\.?')?",
+          "endCaptures": {
+            "0": {
+              "name": "meta.bracket.vsl"
+            },
+            "1": {
+              "name": "keyword.operator.transposed-func.vsl"
+            }
+          },
+          "patterns": [
+            {
+              "match": "\\bfor\\b",
+              "name": "keyword.control.vsl"
+            },
+            {
+              "include": "$self"
+            }
+          ]
+        }
+      ]
+    },
+    "function_decl": {},
+
     "reserved-words": {
       "match": "\\b(print)\\b",
       "name": "entity.name.function.member.vsl"
@@ -89,8 +125,8 @@
     "numbers": {
       "patterns": [
         {
-          "name": "keyword.other.unit.integer.vsl",
-          "match": "(^(-|\\()?[0-9]+\\)?$)"
+          "name": "constant.numeric",
+          "match": "\\b[0-9]+"
         }
       ]
     }
