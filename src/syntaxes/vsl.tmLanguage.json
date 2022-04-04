@@ -29,7 +29,8 @@
       "patterns": [
         {
           "begin": "//",
-          "end": "\\n"
+          "end": "\\n",
+          "name": "comment.line.double-slash"
         }
       ]
     },

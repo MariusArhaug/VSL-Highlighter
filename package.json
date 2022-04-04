@@ -12,7 +12,7 @@
   },
   "displayName": "VSL Highlighter",
   "description": "Syntax highlighting for the VSL language (very simple language)",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.65.0"
   },
@@ -38,7 +38,11 @@
         "extensions": [
           ".vsl"
         ],
-        "configuration": "./src/language-configuration.json"
+        "configuration": "./src/language-configuration.json",
+        "icon": {
+          "dark": "./images/vsl-icon/favicon.ico",
+          "light": "./images/vsl-icon/favicon.ico"
+        }
       }
     ],
     "grammars": [
