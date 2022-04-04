@@ -12,11 +12,9 @@ More to be added whenever I have the time :)
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension. Please let me know
+Please let me know if you discover any issues!
 
 ## Release Notes
-
-Users appreciate release notes as you update your extension.
 
 ### 0.0.1
 
@@ -33,3 +31,7 @@ Add highlighting for comments "//"
 ### 0.0.5
 
 Add function declartion and calling highlighting
+
+### 0.0.6
+
+Update metadata
