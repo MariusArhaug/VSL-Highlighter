@@ -2,6 +2,10 @@
 
 This is a simple syntax highlighter for the "vsl" (very simple language) language introduced in NTNU's Compiler Construction course `TDT4205` It is still a work in progress :)
 
+## Install
+
+You can visit the vscode marketplace [here](https://marketplace.visualstudio.com/items?itemName=MariusArhaug.vsl-lang) and learn how to download and install.
+
 ## Features
 
 It currently only implements simple highlighting tokens for other themes to pick up on.
