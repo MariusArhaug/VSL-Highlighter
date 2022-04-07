@@ -1,4 +1,4 @@
-# VSL Highlighter
+# Very Simple Highlighter
 
 This is a simple syntax highlighter for the "vsl" (very simple language) language introduced in NTNU's Compiler Construction course `TDT4205` It is still a work in progress :)
 
