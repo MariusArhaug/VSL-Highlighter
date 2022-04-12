@@ -98,6 +98,10 @@
     "operators": {
       "patterns": [
         {
+          "match": "=",
+          "name": "keyword.operator.assignment.vsl"
+        },
+        {
           "match": "%=|\\+=|\\*=|(?<!\\()/=|:=|-=",
           "name": "keyword.operator.assingment.compund.vsl"
         },
@@ -108,6 +112,10 @@
         {
           "match": "&|\\||\\~",
           "name": "keyword.operator.logical.vsl"
+        },
+        {
+          "match": "\\<|\\>|\\<=|\\>=",
+          "name": "keyword.control.ltgtlege.vsl"
         }
       ]
     },
