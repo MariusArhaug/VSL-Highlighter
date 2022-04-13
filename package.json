@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MariusArhaug/VSL-Highlighter"
+    "url": "https://github.com/MariusArhaug/VerySimpleHighlighter"
   },
   "displayName": "Very Simple Highlighter",
   "description": "Syntax highlighting for the VSL language (very simple language)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.65.0"
   },
@@ -58,7 +58,7 @@
     "id": "bd913646-6eec-49c7-97af-c81c83ba438d",
     "publisherId": "8373029c-abb6-485e-8eee-35b58a5e9fad",
     "publisherDisplayName": "Marius Arhaug",
-    "targetPlatform": "undefined",
+    "targetPlatform": " ",
     "updated": false,
     "isPreReleaseVersion": false,
     "preRelease": false
