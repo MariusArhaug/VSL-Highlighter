@@ -21,22 +21,4 @@ Please let me know if you discover any issues!
 
 ## Release Notes
 
-### 0.0.1
-
-Initial release of extension
-
-### 0.0.2 - 0.0.3
-
-Update metadata
-
-### 0.0.4
-
-Add highlighting for comments "//"
-
-### 0.0.5
-
-Add function declartion and calling highlighting
-
-### 0.0.6
-
-Update metadata
+View the [CHANGELOG.md](CHANGELOG.md) for details regarding every patch/update
